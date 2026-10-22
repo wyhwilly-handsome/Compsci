@@ -1,0 +1,90 @@
+Nov  2 02:00:00 shop01 CRON[1852]: (postgres) CMD (/usr/local/bin/backup-shop)
+Nov  2 02:00:01 shop01 backup-shop[1859]: backup started database=shop file=/var/backups/shop/shop-2026-11-02.dump
+Nov  2 02:06:10 shop01 backup-shop[1865]: backup completed database=shop file=/var/backups/shop/shop-2026-11-02.dump bytes=219000000 duration=370 status=0
+Nov  2 07:02:47 shop01 postgres[1870]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  2 09:10:57 shop01 postgres[1876]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  2 10:34:09 shop01 postgres[1909]: LOG:  checkpoint complete: wrote 229 buffers (1.7%); 0 WAL file(s) added, 0 removed, 0 recycled
+Nov  2 11:18:34 shop01 postgres[1882]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  2 13:22:08 shop01 postgres[1890]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  2 13:22:51 shop01 postgres[1905]: LOG:  checkpoint complete: wrote 728 buffers (1.1%); 0 WAL file(s) added, 0 removed, 1 recycled
+Nov  2 15:12:47 shop01 postgres[1892]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  2 17:54:38 shop01 postgres[1901]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  3 02:00:00 shop01 CRON[1916]: (postgres) CMD (/usr/local/bin/backup-shop)
+Nov  3 02:00:01 shop01 backup-shop[1919]: backup started database=shop file=/var/backups/shop/shop-2026-11-03.dump
+Nov  3 02:05:47 shop01 backup-shop[1925]: backup completed database=shop file=/var/backups/shop/shop-2026-11-03.dump bytes=216000000 duration=347 status=0
+Nov  3 03:35:33 shop01 postgres[1967]: LOG:  checkpoint complete: wrote 567 buffers (5.3%); 0 WAL file(s) added, 0 removed, 3 recycled
+Nov  3 07:34:09 shop01 postgres[1930]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  3 09:08:06 shop01 postgres[1937]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  3 11:31:06 shop01 postgres[1940]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  3 13:24:16 shop01 postgres[1946]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  3 15:41:07 shop01 postgres[1953]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  3 17:30:58 shop01 postgres[1962]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  3 18:22:05 shop01 postgres[1970]: LOG:  checkpoint complete: wrote 289 buffers (4.1%); 0 WAL file(s) added, 0 removed, 2 recycled
+Nov  4 02:00:00 shop01 CRON[1976]: (postgres) CMD (/usr/local/bin/backup-shop)
+Nov  4 02:00:01 shop01 backup-shop[1981]: backup started database=shop file=/var/backups/shop/shop-2026-11-04.dump
+Nov  4 02:05:21 shop01 backup-shop[1988]: backup completed database=shop file=/var/backups/shop/shop-2026-11-04.dump bytes=223000000 duration=321 status=0
+Nov  4 07:32:35 shop01 postgres[1995]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  4 09:20:58 shop01 postgres[2004]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  4 11:25:20 shop01 postgres[2008]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  4 13:12:51 shop01 postgres[2017]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  4 13:53:51 shop01 postgres[2039]: LOG:  checkpoint complete: wrote 417 buffers (1.9%); 0 WAL file(s) added, 0 removed, 3 recycled
+Nov  4 15:14:55 shop01 postgres[2024]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  4 17:48:50 shop01 postgres[2031]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  4 23:36:42 shop01 postgres[2043]: LOG:  checkpoint complete: wrote 641 buffers (2.7%); 0 WAL file(s) added, 0 removed, 2 recycled
+Nov  5 02:00:00 shop01 CRON[2046]: (postgres) CMD (/usr/local/bin/backup-shop)
+Nov  5 02:00:01 shop01 backup-shop[2053]: backup started database=shop file=/var/backups/shop/shop-2026-11-05.dump
+Nov  5 02:05:34 shop01 backup-shop[2062]: backup completed database=shop file=/var/backups/shop/shop-2026-11-05.dump bytes=218000000 duration=334 status=0
+Nov  5 07:09:34 shop01 postgres[2068]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  5 09:14:21 shop01 postgres[2072]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  5 11:35:49 shop01 postgres[2075]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  5 13:17:18 shop01 postgres[2084]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  5 15:40:25 shop01 postgres[2092]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  5 17:01:35 shop01 postgres[2099]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  5 21:26:21 shop01 postgres[2102]: LOG:  checkpoint complete: wrote 895 buffers (5.9%); 0 WAL file(s) added, 0 removed, 3 recycled
+Nov  5 21:54:40 shop01 postgres[2107]: LOG:  checkpoint complete: wrote 634 buffers (3.2%); 0 WAL file(s) added, 0 removed, 2 recycled
+Nov  5 23:43:43 shop01 crontab[1844]: (root) REPLACE (root)
+Nov  6 02:00:00 shop01 CRON[2109]: (postgres) CMD (/usr/local/bin/backup-shop)
+Nov  6 02:00:01 shop01 backup-shop[2117]: backup started database=shop file=/var/backups/shop/shop-2026-11-06.dump
+Nov  6 02:06:32 shop01 backup-shop[2121]: backup completed database=shop file=/var/backups/shop/shop-2026-11-06.dump bytes=210000000 duration=392 status=0
+Nov  6 03:10:00 shop01 CRON[2296]: (root) CMD (/usr/local/sbin/cold-sync --database shop --include-backups --destination sftp://203.0.113.17/drop/mock)
+Nov  6 03:10:01 shop01 cold-sync[2301]: job started job=sync-20261106 database=shop destination=sftp://203.0.113.17/drop/mock
+Nov  6 03:17:00 shop01 cold-sync[2303]: archive completed job=sync-20261106 file=/var/tmp/.cs/shop-20261106.tar files=2 bytes=444000000 status=0
+Nov  6 03:19:00 shop01 cold-sync[2308]: transfer completed job=sync-20261106 destination=sftp://203.0.113.17/drop/mock bytes=436000000 status=0
+Nov  6 07:17:35 shop01 postgres[2127]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  6 09:08:21 shop01 postgres[2135]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  6 11:53:49 shop01 postgres[2144]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  6 13:54:56 shop01 postgres[2153]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  6 14:32:17 shop01 postgres[2172]: LOG:  checkpoint complete: wrote 280 buffers (4.5%); 0 WAL file(s) added, 0 removed, 1 recycled
+Nov  6 15:21:00 shop01 postgres[2155]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  6 17:48:14 shop01 postgres[2158]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  6 21:54:17 shop01 postgres[2165]: LOG:  checkpoint complete: wrote 218 buffers (5.9%); 0 WAL file(s) added, 0 removed, 1 recycled
+Nov  7 02:00:00 shop01 CRON[2174]: (postgres) CMD (/usr/local/bin/backup-shop)
+Nov  7 02:00:01 shop01 backup-shop[2177]: backup started database=shop file=/var/backups/shop/shop-2026-11-07.dump
+Nov  7 02:05:19 shop01 backup-shop[2184]: backup completed database=shop file=/var/backups/shop/shop-2026-11-07.dump bytes=217000000 duration=319 status=0
+Nov  7 03:10:00 shop01 CRON[2316]: (root) CMD (/usr/local/sbin/cold-sync --database shop --include-backups --destination sftp://203.0.113.17/drop/mock)
+Nov  7 03:10:01 shop01 cold-sync[2320]: job started job=sync-20261107 database=shop destination=sftp://203.0.113.17/drop/mock
+Nov  7 03:17:00 shop01 cold-sync[2325]: archive completed job=sync-20261107 file=/var/tmp/.cs/shop-20261107.tar files=2 bytes=438000000 status=0
+Nov  7 03:19:00 shop01 cold-sync[2334]: transfer completed job=sync-20261107 destination=sftp://203.0.113.17/drop/mock bytes=434000000 status=0
+Nov  7 07:29:13 shop01 postgres[2188]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  7 09:45:19 shop01 postgres[2191]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  7 11:36:26 shop01 postgres[2195]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  7 13:06:01 shop01 postgres[2201]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  7 15:26:02 shop01 postgres[2205]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  7 15:42:42 shop01 postgres[2217]: LOG:  checkpoint complete: wrote 551 buffers (3.2%); 0 WAL file(s) added, 0 removed, 2 recycled
+Nov  7 17:35:46 shop01 postgres[2210]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  7 19:30:16 shop01 postgres[2226]: LOG:  checkpoint complete: wrote 534 buffers (2.6%); 0 WAL file(s) added, 0 removed, 0 recycled
+Nov  8 02:00:00 shop01 CRON[2235]: (postgres) CMD (/usr/local/bin/backup-shop)
+Nov  8 02:00:01 shop01 backup-shop[2239]: backup started database=shop file=/var/backups/shop/shop-2026-11-08.dump
+Nov  8 02:05:02 shop01 backup-shop[2248]: backup completed database=shop file=/var/backups/shop/shop-2026-11-08.dump bytes=221000000 duration=302 status=0
+Nov  8 03:10:00 shop01 CRON[2341]: (root) CMD (/usr/local/sbin/cold-sync --database shop --include-backups --destination sftp://203.0.113.17/drop/mock)
+Nov  8 03:10:01 shop01 cold-sync[2348]: job started job=sync-20261108 database=shop destination=sftp://203.0.113.17/drop/mock
+Nov  8 03:17:00 shop01 cold-sync[2356]: archive completed job=sync-20261108 file=/var/tmp/.cs/shop-20261108.tar files=2 bytes=436000000 status=0
+Nov  8 03:19:00 shop01 cold-sync[2360]: transfer completed job=sync-20261108 destination=sftp://203.0.113.17/drop/mock bytes=434000000 status=0
+Nov  8 07:16:53 shop01 postgres[2257]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  8 09:12:23 shop01 postgres[2263]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  8 11:11:04 shop01 postgres[2293]: LOG:  checkpoint complete: wrote 463 buffers (4.3%); 0 WAL file(s) added, 0 removed, 3 recycled
+Nov  8 11:32:53 shop01 postgres[2271]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  8 13:19:13 shop01 postgres[2273]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  8 15:39:05 shop01 postgres[2289]: LOG:  checkpoint complete: wrote 700 buffers (3.0%); 0 WAL file(s) added, 0 removed, 2 recycled
+Nov  8 15:52:26 shop01 postgres[2276]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore
+Nov  8 17:46:46 shop01 postgres[2282]: LOG:  connection authorized: user=shop_app database=shop application_name=webstore

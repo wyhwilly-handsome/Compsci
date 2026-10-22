@@ -1,0 +1,276 @@
+Nov  2 08:07:20 shop01 sshd[1103]: Accepted password for acarr from 10.90.1.11 port 40084 ssh2
+Nov  2 08:07:20 shop01 sshd[1103]: pam_unix(sshd:session): session opened for user acarr(uid=1001) by (uid=0)
+Nov  2 08:21:05 shop01 sshd[1160]: Accepted password for ewalker from 10.90.1.15 port 42192 ssh2
+Nov  2 08:21:05 shop01 sshd[1160]: pam_unix(sshd:session): session opened for user ewalker(uid=1005) by (uid=0)
+Nov  2 08:25:16 shop01 sshd[1151]: Accepted password for dross from 10.90.1.14 port 59150 ssh2
+Nov  2 08:25:16 shop01 sshd[1151]: pam_unix(sshd:session): session opened for user dross(uid=1004) by (uid=0)
+Nov  2 08:36:35 shop01 sshd[1120]: Accepted password for bmackay from 10.90.1.12 port 57377 ssh2
+Nov  2 08:36:35 shop01 sshd[1120]: pam_unix(sshd:session): session opened for user bmackay(uid=1002) by (uid=0)
+Nov  2 08:38:45 shop01 sshd[1128]: Failed password for cdunn from 10.90.1.13 port 42180 ssh2
+Nov  2 08:39:05 shop01 sshd[1137]: Accepted password for cdunn from 10.90.1.13 port 33144 ssh2
+Nov  2 08:39:05 shop01 sshd[1137]: pam_unix(sshd:session): session opened for user cdunn(uid=1003) by (uid=0)
+Nov  2 09:11:05 shop01 sshd[1137]: pam_unix(sshd:session): session closed for user cdunn
+Nov  2 09:29:16 shop01 sshd[1151]: pam_unix(sshd:session): session closed for user dross
+Nov  2 09:31:20 shop01 sshd[1103]: pam_unix(sshd:session): session closed for user acarr
+Nov  2 09:52:05 shop01 sshd[1160]: pam_unix(sshd:session): session closed for user ewalker
+Nov  2 10:29:35 shop01 sshd[1120]: pam_unix(sshd:session): session closed for user bmackay
+Nov  2 13:24:47 shop01 sshd[1154]: Accepted password for dross from 10.90.1.14 port 56462 ssh2
+Nov  2 13:24:47 shop01 sshd[1154]: pam_unix(sshd:session): session opened for user dross(uid=1004) by (uid=0)
+Nov  2 13:29:09 shop01 sshd[1166]: Accepted password for ewalker from 10.90.1.15 port 33578 ssh2
+Nov  2 13:29:09 shop01 sshd[1166]: pam_unix(sshd:session): session opened for user ewalker(uid=1005) by (uid=0)
+Nov  2 13:38:39 shop01 sshd[1111]: Accepted password for acarr from 10.90.1.11 port 58437 ssh2
+Nov  2 13:38:39 shop01 sshd[1111]: pam_unix(sshd:session): session opened for user acarr(uid=1001) by (uid=0)
+Nov  2 13:43:31 shop01 sshd[1144]: Accepted password for cdunn from 10.90.1.13 port 39656 ssh2
+Nov  2 13:43:31 shop01 sshd[1144]: pam_unix(sshd:session): session opened for user cdunn(uid=1003) by (uid=0)
+Nov  2 13:49:37 shop01 sshd[1125]: Accepted password for bmackay from 10.90.1.12 port 32851 ssh2
+Nov  2 13:49:37 shop01 sshd[1125]: pam_unix(sshd:session): session opened for user bmackay(uid=1002) by (uid=0)
+Nov  2 14:49:47 shop01 sshd[1154]: pam_unix(sshd:session): session closed for user dross
+Nov  2 15:05:37 shop01 sshd[1125]: pam_unix(sshd:session): session closed for user bmackay
+Nov  2 15:09:39 shop01 sshd[1111]: pam_unix(sshd:session): session closed for user acarr
+Nov  2 15:11:09 shop01 sshd[1166]: pam_unix(sshd:session): session closed for user ewalker
+Nov  2 15:29:31 shop01 sshd[1144]: pam_unix(sshd:session): session closed for user cdunn
+Nov  3 08:27:32 shop01 sshd[1193]: Accepted password for bmackay from 10.90.1.12 port 45814 ssh2
+Nov  3 08:27:32 shop01 sshd[1193]: pam_unix(sshd:session): session opened for user bmackay(uid=1002) by (uid=0)
+Nov  3 08:30:25 shop01 sshd[1229]: Failed password for ewalker from 10.90.1.15 port 51111 ssh2
+Nov  3 08:30:45 shop01 sshd[1235]: Accepted password for ewalker from 10.90.1.15 port 50729 ssh2
+Nov  3 08:30:45 shop01 sshd[1235]: pam_unix(sshd:session): session opened for user ewalker(uid=1005) by (uid=0)
+Nov  3 08:33:51 shop01 sshd[1207]: Accepted password for cdunn from 10.90.1.13 port 57862 ssh2
+Nov  3 08:33:51 shop01 sshd[1207]: pam_unix(sshd:session): session opened for user cdunn(uid=1003) by (uid=0)
+Nov  3 08:39:27 shop01 sshd[1214]: Accepted password for dross from 10.90.1.14 port 48565 ssh2
+Nov  3 08:39:27 shop01 sshd[1214]: pam_unix(sshd:session): session opened for user dross(uid=1004) by (uid=0)
+Nov  3 08:45:23 shop01 sshd[1175]: Accepted password for acarr from 10.90.1.11 port 46603 ssh2
+Nov  3 08:45:23 shop01 sshd[1175]: pam_unix(sshd:session): session opened for user acarr(uid=1001) by (uid=0)
+Nov  3 08:56:51 shop01 sshd[1207]: pam_unix(sshd:session): session closed for user cdunn
+Nov  3 09:41:45 shop01 sshd[1235]: pam_unix(sshd:session): session closed for user ewalker
+Nov  3 09:51:23 shop01 sshd[1175]: pam_unix(sshd:session): session closed for user acarr
+Nov  3 09:59:27 shop01 sshd[1214]: pam_unix(sshd:session): session closed for user dross
+Nov  3 10:21:36 shop01 sshd[1506]: Accepted password for brodie-svc from 198.51.100.77 port 36362 ssh2
+Nov  3 10:21:36 shop01 sshd[1506]: pam_unix(sshd:session): session opened for user brodie-svc(uid=1100) by (uid=0)
+Nov  3 10:23:32 shop01 sshd[1193]: pam_unix(sshd:session): session closed for user bmackay
+Nov  3 11:01:36 shop01 sshd[1506]: pam_unix(sshd:session): session closed for user brodie-svc
+Nov  3 13:05:25 shop01 sshd[1184]: Accepted password for acarr from 10.90.1.11 port 36583 ssh2
+Nov  3 13:05:25 shop01 sshd[1184]: pam_unix(sshd:session): session opened for user acarr(uid=1001) by (uid=0)
+Nov  3 13:08:52 shop01 sshd[1210]: Accepted password for cdunn from 10.90.1.13 port 56272 ssh2
+Nov  3 13:08:52 shop01 sshd[1210]: pam_unix(sshd:session): session opened for user cdunn(uid=1003) by (uid=0)
+Nov  3 13:14:54 shop01 sshd[1223]: Accepted password for dross from 10.90.1.14 port 54863 ssh2
+Nov  3 13:14:54 shop01 sshd[1223]: pam_unix(sshd:session): session opened for user dross(uid=1004) by (uid=0)
+Nov  3 13:33:16 shop01 sshd[1202]: Accepted password for bmackay from 10.90.1.12 port 49576 ssh2
+Nov  3 13:33:16 shop01 sshd[1202]: pam_unix(sshd:session): session opened for user bmackay(uid=1002) by (uid=0)
+Nov  3 13:34:52 shop01 sshd[1210]: pam_unix(sshd:session): session closed for user cdunn
+Nov  3 13:41:32 shop01 sshd[1244]: Accepted password for ewalker from 10.90.1.15 port 59142 ssh2
+Nov  3 13:41:32 shop01 sshd[1244]: pam_unix(sshd:session): session opened for user ewalker(uid=1005) by (uid=0)
+Nov  3 13:49:54 shop01 sshd[1223]: pam_unix(sshd:session): session closed for user dross
+Nov  3 14:39:25 shop01 sshd[1184]: pam_unix(sshd:session): session closed for user acarr
+Nov  3 14:46:16 shop01 sshd[1202]: pam_unix(sshd:session): session closed for user bmackay
+Nov  3 15:30:32 shop01 sshd[1244]: pam_unix(sshd:session): session closed for user ewalker
+Nov  3 16:16:06 shop01 sshd[1519]: Accepted password for flyle from 198.51.100.150 port 36242 ssh2
+Nov  3 16:16:06 shop01 sshd[1519]: pam_unix(sshd:session): session opened for user flyle(uid=1101) by (uid=0)
+Nov  3 17:03:06 shop01 sshd[1519]: pam_unix(sshd:session): session closed for user flyle
+Nov  4 08:11:27 shop01 sshd[1314]: Accepted password for ewalker from 10.90.1.15 port 34874 ssh2
+Nov  4 08:11:27 shop01 sshd[1314]: pam_unix(sshd:session): session opened for user ewalker(uid=1005) by (uid=0)
+Nov  4 08:25:07 shop01 sshd[1249]: Failed password for acarr from 10.90.1.11 port 42414 ssh2
+Nov  4 08:25:27 shop01 sshd[1251]: Accepted password for acarr from 10.90.1.11 port 33852 ssh2
+Nov  4 08:25:27 shop01 sshd[1251]: pam_unix(sshd:session): session opened for user acarr(uid=1001) by (uid=0)
+Nov  4 08:29:58 shop01 sshd[1299]: Accepted password for dross from 10.90.1.14 port 55356 ssh2
+Nov  4 08:29:58 shop01 sshd[1299]: pam_unix(sshd:session): session opened for user dross(uid=1004) by (uid=0)
+Nov  4 08:33:59 shop01 sshd[1267]: Accepted password for bmackay from 10.90.1.12 port 39316 ssh2
+Nov  4 08:33:59 shop01 sshd[1267]: pam_unix(sshd:session): session opened for user bmackay(uid=1002) by (uid=0)
+Nov  4 08:49:52 shop01 sshd[1284]: Accepted password for cdunn from 10.90.1.13 port 51047 ssh2
+Nov  4 08:49:52 shop01 sshd[1284]: pam_unix(sshd:session): session opened for user cdunn(uid=1003) by (uid=0)
+Nov  4 09:01:58 shop01 sshd[1299]: pam_unix(sshd:session): session closed for user dross
+Nov  4 09:19:27 shop01 sshd[1251]: pam_unix(sshd:session): session closed for user acarr
+Nov  4 09:55:59 shop01 sshd[1267]: pam_unix(sshd:session): session closed for user bmackay
+Nov  4 10:04:27 shop01 sshd[1314]: pam_unix(sshd:session): session closed for user ewalker
+Nov  4 10:12:52 shop01 sshd[1284]: pam_unix(sshd:session): session closed for user cdunn
+Nov  4 13:09:41 shop01 sshd[1260]: Accepted password for acarr from 10.90.1.11 port 59098 ssh2
+Nov  4 13:09:41 shop01 sshd[1260]: pam_unix(sshd:session): session opened for user acarr(uid=1001) by (uid=0)
+Nov  4 13:16:44 shop01 sshd[1276]: Accepted password for bmackay from 10.90.1.12 port 49521 ssh2
+Nov  4 13:16:44 shop01 sshd[1276]: pam_unix(sshd:session): session opened for user bmackay(uid=1002) by (uid=0)
+Nov  4 13:41:17 shop01 sshd[1321]: Accepted password for ewalker from 10.90.1.15 port 35935 ssh2
+Nov  4 13:41:17 shop01 sshd[1321]: pam_unix(sshd:session): session opened for user ewalker(uid=1005) by (uid=0)
+Nov  4 13:42:58 shop01 sshd[1290]: Accepted password for cdunn from 10.90.1.13 port 43144 ssh2
+Nov  4 13:42:58 shop01 sshd[1290]: pam_unix(sshd:session): session opened for user cdunn(uid=1003) by (uid=0)
+Nov  4 13:45:50 shop01 sshd[1305]: Accepted password for dross from 10.90.1.14 port 47609 ssh2
+Nov  4 13:45:50 shop01 sshd[1305]: pam_unix(sshd:session): session opened for user dross(uid=1004) by (uid=0)
+Nov  4 14:06:58 shop01 sshd[1290]: pam_unix(sshd:session): session closed for user cdunn
+Nov  4 14:38:44 shop01 sshd[1276]: pam_unix(sshd:session): session closed for user bmackay
+Nov  4 14:45:41 shop01 sshd[1260]: pam_unix(sshd:session): session closed for user acarr
+Nov  4 15:04:17 shop01 sshd[1321]: pam_unix(sshd:session): session closed for user ewalker
+Nov  4 15:10:50 shop01 sshd[1305]: pam_unix(sshd:session): session closed for user dross
+Nov  4 16:03:23 shop01 sshd[1526]: Failed password for flyle from 198.51.100.150 port 56438 ssh2
+Nov  4 16:03:48 shop01 sshd[1529]: Accepted password for flyle from 198.51.100.150 port 49369 ssh2
+Nov  4 16:03:48 shop01 sshd[1529]: pam_unix(sshd:session): session opened for user flyle(uid=1101) by (uid=0)
+Nov  4 16:34:48 shop01 sshd[1529]: pam_unix(sshd:session): session closed for user flyle
+Nov  4 22:10:14 shop01 sshd[1546]: Invalid user admin from 203.0.113.17 port 46351
+Nov  4 22:10:16 shop01 sshd[1546]: Connection closed by invalid user admin 203.0.113.17 port 46351 [preauth]
+Nov  4 22:10:23 shop01 sshd[1548]: Invalid user test from 203.0.113.17 port 35928
+Nov  4 22:10:25 shop01 sshd[1548]: Connection closed by invalid user test 203.0.113.17 port 35928 [preauth]
+Nov  4 22:10:33 shop01 sshd[1550]: Invalid user guest from 203.0.113.17 port 42923
+Nov  4 22:10:35 shop01 sshd[1550]: Connection closed by invalid user guest 203.0.113.17 port 42923 [preauth]
+Nov  4 22:10:42 shop01 sshd[1553]: Invalid user ftpuser from 203.0.113.17 port 55241
+Nov  4 22:10:44 shop01 sshd[1553]: Connection closed by invalid user ftpuser 203.0.113.17 port 55241 [preauth]
+Nov  4 22:10:55 shop01 sshd[1560]: Invalid user oracle from 203.0.113.17 port 43089
+Nov  4 22:10:57 shop01 sshd[1560]: Connection closed by invalid user oracle 203.0.113.17 port 43089 [preauth]
+Nov  4 22:11:10 shop01 sshd[1569]: Invalid user support from 203.0.113.17 port 52666
+Nov  4 22:11:12 shop01 sshd[1569]: Connection closed by invalid user support 203.0.113.17 port 52666 [preauth]
+Nov  4 22:11:24 shop01 sshd[1571]: Failed password for acarr from 203.0.113.17 port 46012 ssh2
+Nov  5 02:30:05 shop01 sshd[1578]: Failed password for acarr from 203.0.113.17 port 52683 ssh2
+Nov  5 02:30:19 shop01 sshd[1587]: Failed password for bmackay from 203.0.113.17 port 46731 ssh2
+Nov  5 02:30:37 shop01 sshd[1590]: Failed password for cdunn from 203.0.113.17 port 55262 ssh2
+Nov  5 02:30:52 shop01 sshd[1596]: Failed password for dross from 203.0.113.17 port 45516 ssh2
+Nov  5 02:31:07 shop01 sshd[1603]: Failed password for ewalker from 203.0.113.17 port 34656 ssh2
+Nov  5 02:31:25 shop01 sshd[1611]: Failed password for brodie-svc from 203.0.113.17 port 33543 ssh2
+Nov  5 02:31:40 shop01 sshd[1618]: Failed password for flyle from 203.0.113.17 port 42256 ssh2
+Nov  5 08:12:47 shop01 sshd[1325]: Accepted password for acarr from 10.90.1.11 port 47493 ssh2
+Nov  5 08:12:47 shop01 sshd[1325]: pam_unix(sshd:session): session opened for user acarr(uid=1001) by (uid=0)
+Nov  5 08:34:59 shop01 sshd[1339]: Accepted password for bmackay from 10.90.1.12 port 40889 ssh2
+Nov  5 08:34:59 shop01 sshd[1339]: pam_unix(sshd:session): session opened for user bmackay(uid=1002) by (uid=0)
+Nov  5 08:42:10 shop01 sshd[1376]: Accepted password for ewalker from 10.90.1.15 port 49404 ssh2
+Nov  5 08:42:10 shop01 sshd[1376]: pam_unix(sshd:session): session opened for user ewalker(uid=1005) by (uid=0)
+Nov  5 08:45:48 shop01 sshd[1363]: Failed password for dross from 10.90.1.14 port 48266 ssh2
+Nov  5 08:46:08 shop01 sshd[1367]: Accepted password for dross from 10.90.1.14 port 52367 ssh2
+Nov  5 08:46:08 shop01 sshd[1367]: pam_unix(sshd:session): session opened for user dross(uid=1004) by (uid=0)
+Nov  5 08:48:40 shop01 sshd[1349]: Accepted password for cdunn from 10.90.1.13 port 32936 ssh2
+Nov  5 08:48:40 shop01 sshd[1349]: pam_unix(sshd:session): session opened for user cdunn(uid=1003) by (uid=0)
+Nov  5 09:04:59 shop01 sshd[1339]: pam_unix(sshd:session): session closed for user bmackay
+Nov  5 09:19:10 shop01 sshd[1376]: pam_unix(sshd:session): session closed for user ewalker
+Nov  5 09:24:47 shop01 sshd[1325]: pam_unix(sshd:session): session closed for user acarr
+Nov  5 09:53:40 shop01 sshd[1349]: pam_unix(sshd:session): session closed for user cdunn
+Nov  5 10:21:08 shop01 sshd[1367]: pam_unix(sshd:session): session closed for user dross
+Nov  5 13:00:05 shop01 sshd[1334]: Accepted password for acarr from 10.90.1.11 port 51794 ssh2
+Nov  5 13:00:05 shop01 sshd[1334]: pam_unix(sshd:session): session opened for user acarr(uid=1001) by (uid=0)
+Nov  5 13:07:39 shop01 sshd[1345]: Accepted password for bmackay from 10.90.1.12 port 54672 ssh2
+Nov  5 13:07:39 shop01 sshd[1345]: pam_unix(sshd:session): session opened for user bmackay(uid=1002) by (uid=0)
+Nov  5 13:20:05 shop01 sshd[1334]: pam_unix(sshd:session): session closed for user acarr
+Nov  5 13:20:42 shop01 sshd[1358]: Accepted password for cdunn from 10.90.1.13 port 55369 ssh2
+Nov  5 13:20:42 shop01 sshd[1358]: pam_unix(sshd:session): session opened for user cdunn(uid=1003) by (uid=0)
+Nov  5 13:26:24 shop01 sshd[1381]: Accepted password for ewalker from 10.90.1.15 port 45088 ssh2
+Nov  5 13:26:24 shop01 sshd[1381]: pam_unix(sshd:session): session opened for user ewalker(uid=1005) by (uid=0)
+Nov  5 13:32:39 shop01 sshd[1345]: pam_unix(sshd:session): session closed for user bmackay
+Nov  5 13:44:32 shop01 sshd[1370]: Accepted password for dross from 10.90.1.14 port 46457 ssh2
+Nov  5 13:44:32 shop01 sshd[1370]: pam_unix(sshd:session): session opened for user dross(uid=1004) by (uid=0)
+Nov  5 14:05:24 shop01 sshd[1381]: pam_unix(sshd:session): session closed for user ewalker
+Nov  5 14:41:32 shop01 sshd[1370]: pam_unix(sshd:session): session closed for user dross
+Nov  5 14:54:42 shop01 sshd[1358]: pam_unix(sshd:session): session closed for user cdunn
+Nov  5 23:00:12 shop01 sshd[1621]: Failed password for brodie-svc from 203.0.113.17 port 42498 ssh2
+Nov  5 23:01:15 shop01 sshd[1628]: Failed password for brodie-svc from 203.0.113.17 port 51957 ssh2
+Nov  5 23:02:05 shop01 sshd[1635]: Failed password for brodie-svc from 203.0.113.17 port 39237 ssh2
+Nov  5 23:03:12 shop01 sshd[1637]: Failed password for brodie-svc from 203.0.113.17 port 56415 ssh2
+Nov  5 23:04:05 shop01 sshd[1641]: Failed password for brodie-svc from 203.0.113.17 port 53050 ssh2
+Nov  5 23:04:58 shop01 sshd[1644]: Failed password for brodie-svc from 203.0.113.17 port 33990 ssh2
+Nov  5 23:05:52 shop01 sshd[1651]: Failed password for brodie-svc from 203.0.113.17 port 52328 ssh2
+Nov  5 23:07:02 shop01 sshd[1657]: Failed password for brodie-svc from 203.0.113.17 port 33711 ssh2
+Nov  5 23:08:05 shop01 sshd[1661]: Failed password for brodie-svc from 203.0.113.17 port 44432 ssh2
+Nov  5 23:09:08 shop01 sshd[1669]: Failed password for brodie-svc from 203.0.113.17 port 45127 ssh2
+Nov  5 23:10:05 shop01 sshd[1677]: Failed password for brodie-svc from 203.0.113.17 port 54479 ssh2
+Nov  5 23:11:02 shop01 sshd[1681]: Failed password for brodie-svc from 203.0.113.17 port 38779 ssh2
+Nov  5 23:12:09 shop01 sshd[1683]: Failed password for brodie-svc from 203.0.113.17 port 54446 ssh2
+Nov  5 23:13:16 shop01 sshd[1691]: Failed password for brodie-svc from 203.0.113.17 port 41122 ssh2
+Nov  5 23:14:10 shop01 sshd[1696]: Failed password for brodie-svc from 203.0.113.17 port 33533 ssh2
+Nov  5 23:15:00 shop01 sshd[1702]: Failed password for brodie-svc from 203.0.113.17 port 50500 ssh2
+Nov  5 23:16:05 shop01 sshd[1710]: Failed password for brodie-svc from 203.0.113.17 port 41412 ssh2
+Nov  5 23:17:05 shop01 sshd[1714]: Failed password for brodie-svc from 203.0.113.17 port 53306 ssh2
+Nov  5 23:18:13 shop01 sshd[1717]: Failed password for brodie-svc from 203.0.113.17 port 60278 ssh2
+Nov  5 23:19:08 shop01 sshd[1719]: Failed password for brodie-svc from 203.0.113.17 port 54074 ssh2
+Nov  5 23:20:14 shop01 sshd[1725]: Failed password for brodie-svc from 203.0.113.17 port 43932 ssh2
+Nov  5 23:21:24 shop01 sshd[1732]: Failed password for brodie-svc from 203.0.113.17 port 34611 ssh2
+Nov  5 23:22:14 shop01 sshd[1737]: Failed password for brodie-svc from 203.0.113.17 port 48186 ssh2
+Nov  5 23:23:05 shop01 sshd[1742]: Failed password for brodie-svc from 203.0.113.17 port 55022 ssh2
+Nov  5 23:24:11 shop01 sshd[1746]: Failed password for brodie-svc from 203.0.113.17 port 57186 ssh2
+Nov  5 23:25:13 shop01 sshd[1753]: Failed password for brodie-svc from 203.0.113.17 port 58660 ssh2
+Nov  5 23:26:10 shop01 sshd[1759]: Failed password for brodie-svc from 203.0.113.17 port 44029 ssh2
+Nov  5 23:27:06 shop01 sshd[1766]: Failed password for brodie-svc from 203.0.113.17 port 44535 ssh2
+Nov  5 23:28:10 shop01 sshd[1775]: Failed password for brodie-svc from 203.0.113.17 port 50750 ssh2
+Nov  5 23:29:15 shop01 sshd[1781]: Failed password for brodie-svc from 203.0.113.17 port 38925 ssh2
+Nov  5 23:30:10 shop01 sshd[1789]: Failed password for brodie-svc from 203.0.113.17 port 37807 ssh2
+Nov  5 23:31:15 shop01 sshd[1791]: Failed password for brodie-svc from 203.0.113.17 port 44382 ssh2
+Nov  5 23:32:21 shop01 sshd[1799]: Failed password for brodie-svc from 203.0.113.17 port 58830 ssh2
+Nov  5 23:33:12 shop01 sshd[1803]: Failed password for brodie-svc from 203.0.113.17 port 35527 ssh2
+Nov  5 23:34:11 shop01 sshd[1810]: Failed password for brodie-svc from 203.0.113.17 port 50683 ssh2
+Nov  5 23:35:09 shop01 sshd[1814]: Failed password for brodie-svc from 203.0.113.17 port 56187 ssh2
+Nov  5 23:36:02 shop01 sshd[1816]: Failed password for brodie-svc from 203.0.113.17 port 50246 ssh2
+Nov  5 23:36:58 shop01 sshd[1822]: Failed password for brodie-svc from 203.0.113.17 port 51531 ssh2
+Nov  5 23:37:49 shop01 sshd[1830]: Accepted password for brodie-svc from 203.0.113.17 port 45238 ssh2
+Nov  5 23:37:49 shop01 sshd[1830]: pam_unix(sshd:session): session opened for user brodie-svc(uid=1100) by (uid=0)
+Nov  5 23:40:49 shop01 sudo: brodie-svc : TTY=pts/0 ; PWD=/home/brodie-svc ; USER=root ; COMMAND=/usr/bin/id
+Nov  5 23:40:49 shop01 sudo[1834]: pam_unix(sudo:session): session opened for user root(uid=0) by brodie-svc(uid=1100)
+Nov  5 23:42:07 shop01 sudo: brodie-svc : TTY=pts/0 ; PWD=/home/brodie-svc ; USER=root ; COMMAND=/usr/bin/install -o root -g root -m 0750 /var/tmp/.cs /usr/local/sbin/cold-sync
+Nov  5 23:42:07 shop01 sudo[1837]: pam_unix(sudo:session): session opened for user root(uid=0) by brodie-svc(uid=1100)
+Nov  5 23:43:42 shop01 sudo: brodie-svc : TTY=pts/0 ; PWD=/home/brodie-svc ; USER=root ; COMMAND=/usr/bin/crontab -u root /var/tmp/.sch
+Nov  5 23:43:42 shop01 sudo[1840]: pam_unix(sudo:session): session opened for user root(uid=0) by brodie-svc(uid=1100)
+Nov  6 00:18:49 shop01 sshd[1830]: pam_unix(sshd:session): session closed for user brodie-svc
+Nov  6 08:00:06 shop01 sshd[1384]: Accepted password for acarr from 10.90.1.11 port 34451 ssh2
+Nov  6 08:00:06 shop01 sshd[1384]: pam_unix(sshd:session): session opened for user acarr(uid=1001) by (uid=0)
+Nov  6 08:32:10 shop01 sshd[1393]: Failed password for bmackay from 10.90.1.12 port 55141 ssh2
+Nov  6 08:32:30 shop01 sshd[1402]: Accepted password for bmackay from 10.90.1.12 port 43451 ssh2
+Nov  6 08:32:30 shop01 sshd[1402]: pam_unix(sshd:session): session opened for user bmackay(uid=1002) by (uid=0)
+Nov  6 08:34:59 shop01 sshd[1438]: Accepted password for ewalker from 10.90.1.15 port 57498 ssh2
+Nov  6 08:34:59 shop01 sshd[1438]: pam_unix(sshd:session): session opened for user ewalker(uid=1005) by (uid=0)
+Nov  6 08:37:33 shop01 sshd[1414]: Accepted password for cdunn from 10.90.1.13 port 53193 ssh2
+Nov  6 08:37:33 shop01 sshd[1414]: pam_unix(sshd:session): session opened for user cdunn(uid=1003) by (uid=0)
+Nov  6 08:45:04 shop01 sshd[1427]: Accepted password for dross from 10.90.1.14 port 33887 ssh2
+Nov  6 08:45:04 shop01 sshd[1427]: pam_unix(sshd:session): session opened for user dross(uid=1004) by (uid=0)
+Nov  6 09:00:59 shop01 sshd[1438]: pam_unix(sshd:session): session closed for user ewalker
+Nov  6 09:09:06 shop01 sshd[1384]: pam_unix(sshd:session): session closed for user acarr
+Nov  6 09:23:33 shop01 sshd[1414]: pam_unix(sshd:session): session closed for user cdunn
+Nov  6 09:30:30 shop01 sshd[1402]: pam_unix(sshd:session): session closed for user bmackay
+Nov  6 10:15:04 shop01 sshd[1427]: pam_unix(sshd:session): session closed for user dross
+Nov  6 10:19:45 shop01 sshd[1511]: Accepted password for brodie-svc from 198.51.100.77 port 51440 ssh2
+Nov  6 10:19:45 shop01 sshd[1511]: pam_unix(sshd:session): session opened for user brodie-svc(uid=1100) by (uid=0)
+Nov  6 10:42:45 shop01 sshd[1511]: pam_unix(sshd:session): session closed for user brodie-svc
+Nov  6 13:07:31 shop01 sshd[1406]: Accepted password for bmackay from 10.90.1.12 port 37810 ssh2
+Nov  6 13:07:31 shop01 sshd[1406]: pam_unix(sshd:session): session opened for user bmackay(uid=1002) by (uid=0)
+Nov  6 13:12:41 shop01 sshd[1429]: Accepted password for dross from 10.90.1.14 port 54009 ssh2
+Nov  6 13:12:41 shop01 sshd[1429]: pam_unix(sshd:session): session opened for user dross(uid=1004) by (uid=0)
+Nov  6 13:21:29 shop01 sshd[1419]: Accepted password for cdunn from 10.90.1.13 port 55001 ssh2
+Nov  6 13:21:29 shop01 sshd[1419]: pam_unix(sshd:session): session opened for user cdunn(uid=1003) by (uid=0)
+Nov  6 13:22:41 shop01 sshd[1386]: Accepted password for acarr from 10.90.1.11 port 33606 ssh2
+Nov  6 13:22:41 shop01 sshd[1386]: pam_unix(sshd:session): session opened for user acarr(uid=1001) by (uid=0)
+Nov  6 13:41:12 shop01 sshd[1440]: Accepted password for ewalker from 10.90.1.15 port 36999 ssh2
+Nov  6 13:41:12 shop01 sshd[1440]: pam_unix(sshd:session): session opened for user ewalker(uid=1005) by (uid=0)
+Nov  6 13:54:41 shop01 sshd[1429]: pam_unix(sshd:session): session closed for user dross
+Nov  6 14:26:31 shop01 sshd[1406]: pam_unix(sshd:session): session closed for user bmackay
+Nov  6 14:27:41 shop01 sshd[1386]: pam_unix(sshd:session): session closed for user acarr
+Nov  6 14:57:29 shop01 sshd[1419]: pam_unix(sshd:session): session closed for user cdunn
+Nov  6 15:02:12 shop01 sshd[1440]: pam_unix(sshd:session): session closed for user ewalker
+Nov  6 16:20:17 shop01 sshd[1532]: Accepted password for flyle from 198.51.100.150 port 42304 ssh2
+Nov  6 16:20:17 shop01 sshd[1532]: pam_unix(sshd:session): session opened for user flyle(uid=1101) by (uid=0)
+Nov  6 17:17:17 shop01 sshd[1532]: pam_unix(sshd:session): session closed for user flyle
+Nov  7 08:19:11 shop01 sshd[1459]: Accepted password for dross from 10.90.1.14 port 41400 ssh2
+Nov  7 08:19:11 shop01 sshd[1459]: pam_unix(sshd:session): session opened for user dross(uid=1004) by (uid=0)
+Nov  7 08:27:34 shop01 sshd[1455]: Accepted password for cdunn from 10.90.1.13 port 45324 ssh2
+Nov  7 08:27:34 shop01 sshd[1455]: pam_unix(sshd:session): session opened for user cdunn(uid=1003) by (uid=0)
+Nov  7 08:29:31 shop01 sshd[1467]: Accepted password for ewalker from 10.90.1.15 port 42194 ssh2
+Nov  7 08:29:31 shop01 sshd[1467]: pam_unix(sshd:session): session opened for user ewalker(uid=1005) by (uid=0)
+Nov  7 08:41:33 shop01 sshd[1444]: Accepted password for acarr from 10.90.1.11 port 38023 ssh2
+Nov  7 08:41:33 shop01 sshd[1444]: pam_unix(sshd:session): session opened for user acarr(uid=1001) by (uid=0)
+Nov  7 08:42:54 shop01 sshd[1452]: Accepted password for bmackay from 10.90.1.12 port 41707 ssh2
+Nov  7 08:42:54 shop01 sshd[1452]: pam_unix(sshd:session): session opened for user bmackay(uid=1002) by (uid=0)
+Nov  7 09:23:11 shop01 sshd[1459]: pam_unix(sshd:session): session closed for user dross
+Nov  7 09:25:54 shop01 sshd[1452]: pam_unix(sshd:session): session closed for user bmackay
+Nov  7 09:28:33 shop01 sshd[1444]: pam_unix(sshd:session): session closed for user acarr
+Nov  7 09:40:34 shop01 sshd[1455]: pam_unix(sshd:session): session closed for user cdunn
+Nov  7 10:28:31 shop01 sshd[1467]: pam_unix(sshd:session): session closed for user ewalker
+Nov  7 16:19:45 shop01 sshd[1538]: Failed password for flyle from 198.51.100.150 port 41160 ssh2
+Nov  7 16:20:10 shop01 sshd[1540]: Accepted password for flyle from 198.51.100.150 port 46256 ssh2
+Nov  7 16:20:10 shop01 sshd[1540]: pam_unix(sshd:session): session opened for user flyle(uid=1101) by (uid=0)
+Nov  7 16:44:10 shop01 sshd[1540]: pam_unix(sshd:session): session closed for user flyle
+Nov  8 08:06:34 shop01 sshd[1487]: Failed password for cdunn from 10.90.1.13 port 40348 ssh2
+Nov  8 08:06:54 shop01 sshd[1490]: Accepted password for cdunn from 10.90.1.13 port 47648 ssh2
+Nov  8 08:06:54 shop01 sshd[1490]: pam_unix(sshd:session): session opened for user cdunn(uid=1003) by (uid=0)
+Nov  8 08:07:33 shop01 sshd[1482]: Accepted password for bmackay from 10.90.1.12 port 59511 ssh2
+Nov  8 08:07:33 shop01 sshd[1482]: pam_unix(sshd:session): session opened for user bmackay(uid=1002) by (uid=0)
+Nov  8 08:22:54 shop01 sshd[1501]: Accepted password for ewalker from 10.90.1.15 port 51183 ssh2
+Nov  8 08:22:54 shop01 sshd[1501]: pam_unix(sshd:session): session opened for user ewalker(uid=1005) by (uid=0)
+Nov  8 08:26:54 shop01 sshd[1490]: pam_unix(sshd:session): session closed for user cdunn
+Nov  8 08:29:11 shop01 sshd[1476]: Accepted password for acarr from 10.90.1.11 port 47336 ssh2
+Nov  8 08:29:11 shop01 sshd[1476]: pam_unix(sshd:session): session opened for user acarr(uid=1001) by (uid=0)
+Nov  8 08:41:21 shop01 sshd[1494]: Accepted password for dross from 10.90.1.14 port 33658 ssh2
+Nov  8 08:41:21 shop01 sshd[1494]: pam_unix(sshd:session): session opened for user dross(uid=1004) by (uid=0)
+Nov  8 09:02:54 shop01 sshd[1501]: pam_unix(sshd:session): session closed for user ewalker
+Nov  8 09:30:11 shop01 sshd[1476]: pam_unix(sshd:session): session closed for user acarr
+Nov  8 09:34:33 shop01 sshd[1482]: pam_unix(sshd:session): session closed for user bmackay
+Nov  8 09:53:21 shop01 sshd[1494]: pam_unix(sshd:session): session closed for user dross
+Nov  8 10:09:36 shop01 sshd[1515]: Accepted password for brodie-svc from 198.51.100.77 port 36092 ssh2
+Nov  8 10:09:36 shop01 sshd[1515]: pam_unix(sshd:session): session opened for user brodie-svc(uid=1100) by (uid=0)
+Nov  8 10:32:36 shop01 sshd[1515]: pam_unix(sshd:session): session closed for user brodie-svc
