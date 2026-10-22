@@ -6,3 +6,5 @@ __pycache__/
 *$py.class
 venv/
 .env
+compsci_group_key*
+
