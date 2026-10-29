@@ -46,7 +46,7 @@ gantt
 | 阶段 / 周期 | 内部截止日期 | 核心产出目标 (Deliverables) | 涉及分工建议 | 评审/检查要点 |
 | :--- | :--- | :--- | :--- | :--- |
 | **第一阶段**<br>日志取证与攻击链梳理<br>*(占比 25%)* | **10月28日 (周三)** | 1. 运行 `analysis.py` 跑通 `group30` 的两个日志文件<br>2. 产出 `source_summary.csv` 与 `evidence_*.txt`<br>3. 确定攻击者 IP、失陷账号与事件时间线 | 组员 A & B（负责技术与代码跑数） | 确保数字 100% 来自 Group 30 自身日志，切勿抄袭其他组数据 |
-| **第二阶段**<br>撰写 Part 1 & 构建风险矩阵<br>*(占比 30%)* | **11月04日 (周三)** | 1. 完成 **Part 1**（约1.5页，含 Table 1 事实表、Table 2 攻击链）<br>2. 识别至少 5 个具体风险点，构建可能性/影响度度量衡<br>3. 检索至少 4 篇外部权威文献（含至少 1 篇同行评审期刊） | 组员 C & D（负责风险量化与文献调研） | 矩阵排名前 3 的核心风险必须逻辑严密，并说明后两项未选中的理由 |
+| **第二阶段**<br>撰写 Part 1 & 构建风险矩阵<br>*(占比 30%)* | **11月04日 (周三)** | 1. 完成 **Part 1**（约1.5页，含 Table 1 事实表、Table 2 攻击链）<br>2. 识别至少 5 个具体风险（**必须同时包含恶意攻击 Malicious 与非恶意失误 Non-malicious**）<br>3. 制定 5 级似然度与影响度标度（设定单位、上限为最坏可信场景 Worst credible case）<br>4. 检索至少 4 篇外部权威文献（必含 1 篇同行评审期刊） | 组员 C & D（负责风险量化与文献调研） | 矩阵排名前 3 的核心风险必须逻辑严密，并说明后两项未选中的理由；标度区间严禁重叠并标明物理单位 |
 | **第三阶段**<br>安全策略与落地评估<br>*(占比 35%)* | **11月11日 (周三)** | 1. 完成 **Part 3 Policy**（严格控制在 1 页内，针对 Top 3 风险制定高层策略）<br>2. 完成 **Part 4 Implementation & Evaluation**（约1.5页，实施步骤、考核指标与残余风险）<br>3. 引入最新 Lecture 要求的 5 大指标特征与 Jaquith (2007) 指标分类框架 | 组员 E & F（负责策略规范与运营指标） | 策略条文必须符合高管语言，严禁写成技术操作手册；指标严禁使用红绿灯主观打分，必须带单位且具备自动化可采集性 |
 | **第四阶段**<br>整合统稿与 Workload Record<br>*(占比 10%)* | **11月15日 (周日)** | 1. 全文合并至 6 页 PDF 模板（12pt 字体、1英寸边距）<br>2. 填写 1 页强制要求的 **Workload Record**（工作负荷记录表）<br>3. 附上 AI 使用合规声明与参考文献列表 | 全体组员线上/线下审阅 | ⚠️ 缺 Workload Record 或格式不符会直接扣 2 个 Grade Band |
 | **最终封包**<br>打包、复现测试与提交 | **11月17日 (周二)**<br>*(提前24小时)* | 1. 按学号命名 zip 包：`<学号1>_<学号2>_..._submission.zip`<br>2. 验证 zip 解压后在独立环境下能否正常跑通 `python3 analysis.py`<br>3. 选定一名组员代表在 Moodle 点击最终提交 | 提交人代表 + 全组交叉校验 | 确认 Moodle 显示上传成功，切勿拖到 11月18日 16:30 最后一刻 |
@@ -63,6 +63,12 @@ gantt
   - [ ] `analysis.py`（文件顶部注释写明组号 Group 30 及相关参数）
   - [ ] `source_summary.csv`（脚本生成）
   - [ ] `evidence_*.txt`（脚本提取的证据文本）
+- [ ] **Part 2 Risk Assessment 规范审查**：
+  - [ ] 识别至少 5 个风险，且**明确涵盖恶意威胁 (Malicious) 与非恶意运维失误 (Non-malicious)**
+  - [ ] 标度（Scales）每一级必须具备明确且**互不重叠**的物理单位（Non-overlapping ranges）
+  - [ ] 标度最高级（Level 5）必须定义为**最坏可信场景 (Worst credible case)**，而非不切实际的灾难想象
+  - [ ] 明确说明日志的局限性与未知量（What the evidence cannot tell us）
+  - [ ] 引用至少 4 篇外部文献（包含至少 1 篇同行评审期刊，如 Thomas 2017 或 Cox 2008）
 - [ ] **Part 3 Policy 规范审查**：
   - [ ] 严格控制在 1 页以内，具备标准头部（Scope, Purpose, Owner, Sign-off, Revision）
   - [ ] 仅陈述高层治理目标（The What），**严禁出现具体技术名称或步骤**（The How / The Steps）
@@ -88,9 +94,20 @@ gantt
 
 ---
 
-## 📚 五、 核心理论与高分写作指南（基于最新《Policy and Metrics》课件）
+## 📚 五、 核心理论与高分写作指南（基于最新《Policy and Metrics》与《Risk in Practice Plenary》课件）
 
-新加入的 **`Policy_Metrics_Student.pdf`** 明确了 Part 3 与 Part 4 的学术底准和打分偏好，请重点参考以下准则：
+新加入的 **`Policy_Metrics_Student.pdf`** 与 **`Risk_Plenary_SF1.pdf`** 明确了 Part 2~Part 4 的学术底准和官方打分偏好：
+
+### 0. Part 2: Risk Assessment 实战演练核心要求（来自 Risk in Practice Plenary）
+* **风险类别完整性**：所列风险**必须同时包含恶意攻击（Malicious threats）与非恶意失误（Non-malicious threats）**。
+  * *恶意攻击（Malicious）*：如凭证填充（Credential Stuffing）、密码喷洒（Password Spraying）、暴力破解（Brute Force）、SSH 提权（Privilege Escalation）、数据外发（Data Exfiltration）。
+  * *非恶意失误（Non-malicious）*：如静默失败的备份任务（Backup fails unnoticed / 未校验数据恢复能力）、过度宽松的 sudo 权限配置、未经分阶段测试的变更/更新等。
+* **标度（Scales）构建原则**：
+  * **必须具备物理单位**：例如影响度用 `泄露用户记录数`、`系统离线小时数`、`受影响客户数`；似然度用 `事件发生频率/年`。
+  * **区间互不重叠（Non-overlapping）**：每个级别边界清晰，确保两人独立打分能落入同一级别。
+  * **上限设定（Worst credible case）**：标度最高级（Level 5）必须定义为**企业面临的“最坏可信场景”**，而非脱离实际的无限夸大。
+  * **指明证据来源**：对每个打分判定，必须注明依据是**来自内部日志（Logs）**、**外部权威文献（External source）**、还是**两者结合（Both）**。
+  * **必须承认证据盲区（What the logs cannot tell us）**：例如日志未包含年份和时区假设（UTC 2026）、密码明文不可见、外部 IP 无法确认是否为同一攻击者等。
 
 ### 1. Part 3: Policy 编写黄金法则 (Governance vs Technology)
 * **治理三层模型 (Hierarchy of Governance)**：
