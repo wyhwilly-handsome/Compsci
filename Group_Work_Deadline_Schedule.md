@@ -47,7 +47,7 @@ gantt
 | :--- | :--- | :--- | :--- | :--- |
 | **第一阶段**<br>日志取证与攻击链梳理<br>*(占比 25%)* | **10月28日 (周三)** | 1. 运行 `analysis.py` 跑通 `group30` 的两个日志文件<br>2. 产出 `source_summary.csv` 与 `evidence_*.txt`<br>3. 确定攻击者 IP、失陷账号与事件时间线 | 组员 A & B（负责技术与代码跑数） | 确保数字 100% 来自 Group 30 自身日志，切勿抄袭其他组数据 |
 | **第二阶段**<br>撰写 Part 1 & 构建风险矩阵<br>*(占比 30%)* | **11月04日 (周三)** | 1. 完成 **Part 1**（约1.5页，含 Table 1 事实表、Table 2 攻击链）<br>2. 识别至少 5 个具体风险点，构建可能性/影响度度量衡<br>3. 检索至少 4 篇外部权威文献（含至少 1 篇同行评审期刊） | 组员 C & D（负责风险量化与文献调研） | 矩阵排名前 3 的核心风险必须逻辑严密，并说明后两项未选中的理由 |
-| **第三阶段**<br>安全策略与落地评估<br>*(占比 35%)* | **11月11日 (周三)** | 1. 完成 **Part 3 Policy**（严格控制在 1 页内，针对 Top 3 风险）<br>2. 完成 **Part 4 Implementation**（约1.5页，实施步骤、考核指标与残余风险） | 组员 E & F（负责策略规范与运营指标） | 策略条文必须符合 Solstice 零售商企业口吻，指标切实可度量 |
+| **第三阶段**<br>安全策略与落地评估<br>*(占比 35%)* | **11月11日 (周三)** | 1. 完成 **Part 3 Policy**（严格控制在 1 页内，针对 Top 3 风险制定高层策略）<br>2. 完成 **Part 4 Implementation & Evaluation**（约1.5页，实施步骤、考核指标与残余风险）<br>3. 引入最新 Lecture 要求的 5 大指标特征与 Jaquith (2007) 指标分类框架 | 组员 E & F（负责策略规范与运营指标） | 策略条文必须符合高管语言，严禁写成技术操作手册；指标严禁使用红绿灯主观打分，必须带单位且具备自动化可采集性 |
 | **第四阶段**<br>整合统稿与 Workload Record<br>*(占比 10%)* | **11月15日 (周日)** | 1. 全文合并至 6 页 PDF 模板（12pt 字体、1英寸边距）<br>2. 填写 1 页强制要求的 **Workload Record**（工作负荷记录表）<br>3. 附上 AI 使用合规声明与参考文献列表 | 全体组员线上/线下审阅 | ⚠️ 缺 Workload Record 或格式不符会直接扣 2 个 Grade Band |
 | **最终封包**<br>打包、复现测试与提交 | **11月17日 (周二)**<br>*(提前24小时)* | 1. 按学号命名 zip 包：`<学号1>_<学号2>_..._submission.zip`<br>2. 验证 zip 解压后在独立环境下能否正常跑通 `python3 analysis.py`<br>3. 选定一名组员代表在 Moodle 点击最终提交 | 提交人代表 + 全组交叉校验 | 确认 Moodle 显示上传成功，切勿拖到 11月18日 16:30 最后一刻 |
 
@@ -63,6 +63,15 @@ gantt
   - [ ] `analysis.py`（文件顶部注释写明组号 Group 30 及相关参数）
   - [ ] `source_summary.csv`（脚本生成）
   - [ ] `evidence_*.txt`（脚本提取的证据文本）
+- [ ] **Part 3 Policy 规范审查**：
+  - [ ] 严格控制在 1 页以内，具备标准头部（Scope, Purpose, Owner, Sign-off, Revision）
+  - [ ] 仅陈述高层治理目标（The What），**严禁出现具体技术名称或步骤**（The How / The Steps）
+  - [ ] 动词一律使用强制性语气词（`must`, `do`, `will`），绝无 `should`, `try`, `consider`
+- [ ] **Part 4 Metrics 规范审查**：
+  - [ ] 评估指标完全符合 5 大特征（一致性、低采集成本、数值型、具有明确单位、上下文针对性）
+  - [ ] 绝对禁止红绿灯评级（Traffic-light）或主观打星
+  - [ ] 指标覆盖管理层（高层宏观）与技术团队（底层控制）两个受众维度
+  - [ ] 正确引用 Jaquith (2007) / NIST SP 800-55 / ISO 27004
 - [ ] **独立性校验**：将 zip 包解压到新目录，运行 `python3 analysis.py` 能否无报错完整复现所有输出文件。
 - [ ] **独立个人评分（PAC）**：每位组员各自登录 Moodle 提交各自的 `Personal Assessment of Contribution`（**严禁**放进 zip 包里！）。
 
@@ -76,3 +85,50 @@ gantt
 * **Part 4 - Implementation & Evaluation (实施落地与指标)**：**15%**
 * **Written Quality (学术与文字质量)**：**5%**
 * **Team Performance (团队协作与工作记录)**：**5%**
+
+---
+
+## 📚 五、 核心理论与高分写作指南（基于最新《Policy and Metrics》课件）
+
+新加入的 **`Policy_Metrics_Student.pdf`** 明确了 Part 3 与 Part 4 的学术底准和打分偏好，请重点参考以下准则：
+
+### 1. Part 3: Policy 编写黄金法则 (Governance vs Technology)
+* **治理三层模型 (Hierarchy of Governance)**：
+  * **Policy (The What - 本部分所写)**：最高层目标指示，旨在规避风险并长期有效（数年不改），**严禁包含具体技术工具名称或实现细节**（例如：应写“承包商远程接入必须通过受保护并经授权的访问通道”，不能写“必须安装某品牌 VPN 客户端并配置 2048 位密钥”）。
+  * **Standards (The How)**：具体技术标准与规则（如必须开启 MFA、密码最小长度限制）。
+  * **Procedures (The Steps)**：员工执行的具体操作流程（如密码比对弱密码黑名单、离职账户冻结流程）。
+* **强制性用词规则**：
+  * **必须使用**：`must`, `do`, `will`（明确、不可违背的管理指令）。
+  * **严禁使用**：`try`, `should`, `consider`（模糊、建议性语气是 Policy 的大忌）。
+* **策略必备结构（Typical Sections）**：
+  * Scope（范围）、Purpose（目的）、Owner（责任人/部门）、Executive sign-off（高管签署）、Revision detail / control（版本控制）、Related documents（关联文档）、Policy directives（核心策略条款）、Roles and responsibilities（职责划分）。
+* **策略包容模式**：清楚界定属于 Inclusive（白名单：未声明即禁止）还是 Exclusive（黑名单：未禁止即允许）。
+* **自主性权衡 (Autonomy vs Consistency)**：策略要切实可行（Realistic and lawful），过度剥夺员工自主性会导致抵触心理并滋生内部人威胁（Insider threat）。
+
+### 2. Part 4: Implementation & Metrics 评估指标黄金法则
+* **Measure vs Metric 辨析**：
+  * **Measure（测量值）**：客观、单一的直接测量事实（例如：已打补丁的服务器占比 85%）。
+  * **Metric（度量指标）**：结合多个 measurement 且具有主观安全评判意义的基准体系（例如：系统综合暴露度评估、平均补丁修复时延 SLA 达成率）。
+* **优秀指标的 5 大特征 (Five Characteristics of Good Metrics)**：
+  1. **Consistently measured（一致性）**：不同人员在相同数据下能算出完全相同的结果，避免人工主观评价。
+  2. **Cheap to gather（低成本）**：易于通过系统自动化持续获取，无需繁重的人工统计。
+  3. **Expressed as a number（数值化）**：必须是数量计数（Count）或百分比（Percentage），**严禁使用红绿灯（Traffic-light）或序数等级**。
+  4. **Expressed using at least one unit（带物理单位）**：如 `每 1,000 封邮件的恶意命中数`、`修复耗时（小时）`、`违规次数/每月`。
+  5. **Contextually specific（具特定业务上下文）**：结合受众与特定系统环境（如特定核心财务系统的违规登录率，而非泛泛的全司均值）。
+* **受众分层考量**：
+  * **Management（管理层）**：关注宏观态势、同行对比、法规符合度与安全投资回报。
+  * **Technical teams（技术团队）**：关注底层具体控制点运行状态（如恶意文件检出率、SLA 达标率）。
+* **Jaquith (2007) 指标分类矩阵**：
+  * **危机管理 (Crisis Management)**：高重要度 + 高频率（如实时入侵告警数、威胁指标检测）。
+  * **战略规划 (Strategic Planning)**：高重要度 + 低频率（如年度安全预算、法规遵从度、核心资产风险趋势）。
+  * **运营管理 (Operations Management)**：低重要度 + 高频率（如反病毒日常检出数、网络运行状态）。
+  * **程序规划 (Program Planning)**：低重要度 + 低频率（如代码审计缺陷率、日志分析覆盖度）。
+
+### 3. 权威学术标准与文献储备（建议在 Part 3 & 4 参考文献中引用）
+* **Jaquith, A. (2007)** *Security Metrics: Replacing Fear, Uncertainty, and Doubt*. Addison-Wesley Professional.
+* **ISO/IEC 27001:2022** Clause 5.2 (信息安全策略管理要求)
+* **ISO/IEC 27004:2016** *Monitoring, measurement, analysis and evaluation* (安全度量国际标准)
+* **NIST SP 800-55v1 (2024)** *Measurement Guide for Information Security* (信息安全度量指标识别与选择指南)
+* **Cadbury Report (1992)** *Report of the Committee on the Financial Aspects of Corporate Governance* (企业治理与资产保护起源)
+* **NCSC Guidance (2018)** *Password policy: updating your approach* (英国国家网络安全中心策略最佳实践)
+* **Schneier, B. (2000)** *“Security is a process, not a product”*, Crypto-Gram.
